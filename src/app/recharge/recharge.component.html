@@ -1,0 +1,58 @@
+<app-header></app-header>
+<div style="background-color: aliceblue;">
+  <br>
+<div class="container p-0" style="padding-top: 5%;">
+  <!-- <form [formGroup]="paymentForm" (ngSumbit)="submit()"> -->
+  <div class="card px-4" >
+  <h3 class="h8 py-3" style="padding-left: 20%;">Payment Details</h3><br>
+  <form [formGroup]="paymentForm" (ngSubmit)="submitdata()">
+  <p class="text mb-1">Enter MobileNumber</p>
+  <input type="number" name="username" class="form-control" placeholder="Mobile Number" formControlName="mobilenumber" /><br>
+  <p class="text mb-1">Enter Plan</p>
+  <input type="number" name="password" class="form-control" placeholder="₹ Amount" formControlName="plan" /><br>
+
+  <div class="row gx-3">
+  <div class="col-12">
+  <div class="d-flex flex-column">
+  <p class="text mb-1">Card Holder Name</p>
+  <input class="form-control mb-3" type="text" placeholder="Name" value="" formControlName="cardholder" />
+  </div>
+  </div>
+  <div class="col-12">
+  <div class="d-flex flex-column">
+  <p class="text mb-1">Card Number</p>
+  <input class="form-control mb-3" type="text" placeholder="1234 5678 435678" formControlName="cardnumber" />
+  </div>
+  </div>
+  <div class="col-12">
+  <div class="d-flex flex-column">
+  <p class="text mb-1">Expiry</p>
+  <input class="form-control mb-3" type="text" placeholder="MM/YYYY" formControlName="expiry" />
+  </div>
+  </div>
+  <div class="col-12">
+  <div class="d-flex flex-column">
+  <p class="text mb-1">CVV/CVC</p>
+  <input class="form-control mb-3 pt-2 " type="number" placeholder="***" formControlName="cvv" />
+  </div>
+  </div>
+  <div class="col-12" style="padding-left: 33%;">
+    
+  <button class="btn btn-primary"  type="submit">SUBMIT</button>
+  <!-- <button type="submit" class="btn btn-info btn-dark">SUBMIT</button> -->
+  <!-- <div class="btn btn-primary mb-3" >
+  <span class="ps-3" >SUBMIT</span>
+  <span class="fas fa-arrow-right" style="padding-left: 10px;"></span> 
+  </div>-->
+  <div style="padding-bottom: 10%;"></div>
+  </div>
+  </div>
+</form>
+  </div>
+<!-- </form> -->
+  </div>
+  <br>
+</div>
+
+
+<app-footer></app-footer>

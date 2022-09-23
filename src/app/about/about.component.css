@@ -1,0 +1,27 @@
+.card3{
+  background-image: url(https://pbs.twimg.com/media/FVW1gWiWYAIwnc0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card1{
+  background-image: url(https://www.breathehr.com/hubfs/Effective%20communication%20business%20women%20talking-min%20v1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card2{
+  background-image: url(https://www.brainbridge.be/sites/brainbridge/files/styles/card/public/2021-05/AdobeStock_296398583.jpeg?itok=Q73emcbc);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#main{
+  background-color:#FEFBE7;
+  margin-top: 2%;
+}
+#main2{
+  background-color: #FEFBE7;
+  padding-bottom: 2%;
+}

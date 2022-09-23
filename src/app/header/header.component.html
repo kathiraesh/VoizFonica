@@ -1,0 +1,87 @@
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<div id="mainNavigation">
+<nav role="navigation">
+  <div class="py-3 text-center border-bottom ">
+    <a class="navbar-brand text-success logo h2 align-self-center"   >
+      <img src="/assets/logo7.jpg" style=" width: 18%;">
+        
+    </a>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg bg-light sticky-top navbar-light p-3 shadow-sm">
+<div class="container">
+  <a class="navbar-brand" href="/home"> <img src="/assets/logo1.png"  style="height: 50px; padding-right: 150px; "></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+  <div class=" collapse navbar-collapse" id="navbarNavDropdown" style="margin-left: -15%;">
+    <ul class="navbar-nav ms-auto ">
+      <li class="nav-item" class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PREPAID</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/prepaid">PREPAID PLANS</a>
+            <a class="dropdown-item" href="/recharge">RECHARGE</a>
+            <a class="dropdown-item" href="/simcard">NEW PREPAID SIM</a>
+          </div>
+      </li>
+      <li class="nav-item" class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">POSTPAID</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/postpaid">POSTPAID PLANS</a>
+            <a class="dropdown-item" href="/recharge">PAY BILLS</a>
+            <a class="dropdown-item" href="/simcard">FREE SIM DELIVERY</a>
+          </div>
+      </li>
+      <li class="nav-item" class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DONGLE</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/dongle">VIEW PLANS</a>
+            <a class="dropdown-item" href="/recharge">PAY BILLS</a>
+            <a class="dropdown-item" href="/simcard">FREE SIM DELIVERY</a>
+          </div>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link mx-2 text-uppercase" href="/contact">SUPPORT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mx-2 text-uppercase" href="/promotion">PROMOTIONS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mx-2 text-uppercase" >{{email}}</a>
+      </li>
+      
+<!-- 
+       <li class="nav-item">
+        <a class="nav-link mx-2 text-uppercase" (click)="logout()" routerLink="/login"><i class="bi bi-box-arrow-right"></i></a>
+      </li> -->
+    </ul>
+    <ul class="navbar-nav ms-auto ">
+      <li class="nav-item " >
+        <a class="nav-link mx-2 text-uppercase" href="/login"><i class="bi bi-person-circle" style="font-size:30px;padding-left:180%;" ></i></a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ms-auto ">
+      <li class="nav-item " >
+        <a class="nav-link mx-2 text-uppercase" (click)="logout()" routerLink="/login"><i class="bi bi-box-arrow-right" style="font-size:30px;padding-left:180%;"  ></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+          

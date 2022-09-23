@@ -1,0 +1,73 @@
+<app-header></app-header>
+<nav  class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+    <div class="container text-light">
+        
+        <div class="w-100 d-flex justify-content-between">
+            <div>
+                <i class="fa fa-envelope mx-2"></i>
+                <a class="navbar-sm-brand text-light text-decoration-none"  href="#">voizfonica@gmail.com</a>
+                <i style="padding-left: 15px;" class="fa fa-phone mx-2"></i>
+                <a class="navbar-sm-brand text-light text-decoration-none" href="#">+234 802 150 0111</a>
+            </div>
+            <div class="social-icon">
+                <a class="text-light" href="#" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="#" target="_blank"><i class="fab fa-youtube fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="#" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="#" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+            </div>  
+        </div>
+    </div>
+  </nav>
+<!-- Section: Design Block -->
+<div style="background-image: url(https://th.bing.com/th/id/OIP.iUjR_qLm5Mvmi17ePEeCxAHaEK?w=322&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7); background-repeat: no-repeat;background-size: cover;">
+    <section class="background-radial-gradient overflow-hidden">
+      <div class="container px-4 py-5 px-md-5  text-lg-start my-5">
+        <div class="row gx-lg-5 align-items-center mb-5">
+          <!-- <div class="col-lg-4 mb-5 mb-lg-0" style="z-index: 10">
+            <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(0, 98%, 49%)">
+              “Feedback is a gift. Ideas are the currency of our next success. Let people see you value both feedback and ideas.”
+            </h1>
+        </div> -->
+
+        <div class="col-lg-8 mb-5 mb-lg-0 position-relative">
+          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+  
+          <div class="card bg-glass form1" class="card"  style="border-top-left-radius: 1.5rem; border-bottom-left-radius: 1.5rem; border-top-right-radius: 1.5rem; border-bottom-right-radius: 1.5rem;">
+            <div class="card-body px-4 py-5 px-md-5">
+                <form [formGroup]="contactForm" (ngSubmit)="submit()" class="center" >
+                <div class="row"></div>
+                <span class="contact-2-form-title ">GET IN TOUCH
+                </span>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example3">Name</label> 
+                  <input type="name" id="form3Example3" class="form-control" placeholder="" formControlName="name" >
+                  <!-- <label class="form-label" for="form3Example3">Email address</label> -->
+                </div>
+  
+                <!-- Mobile number -->
+                <div class="form-outline mb-4">
+                     <label class="form-label" for="form3Example3">Email</label> 
+                    <input type="email" id="form3Example3" class="form-control" placeholder="" formControlName="email" >
+        
+                </div>
+  
+                <div class="form-group">
+                    <label class="form-label" for="exampleFormControlTextarea1" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><b>Message</b></label>
+                    
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="message"></textarea>
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-primary btn-block mb-4 btn-light"><i class="bi bi-send-fill"></i>
+                    Send a Message
+                  </button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+                

@@ -1,0 +1,18 @@
+#prepaid-main{
+    background-image:url('https://th.bing.com/th/id/OIP.v00hPrPAxUgxNtbtEO4XQAHaDt?w=350&h=175&c=7&r=0&o=5&dpr=1.5&pid=1.7') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 1.8rem;
+    border-top-right-radius: 1.8rem;
+    border-bottom-right-radius: 1.8rem;
+    border-bottom-left-radius: 1.8rem;
+    
+}
+
+#main{
+    background-image: url(https://th.bing.com/th/id/OIP.Gv_alguBAaqlMXzMPMu46gHaB3?pid=ImgDet&w=945&h=239&rs=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 25%;
+}
+

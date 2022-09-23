@@ -1,0 +1,28 @@
+.heading{
+    text-align: center;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2cm 0cm;
+    color:blue
+}
+
+.subhead{
+    padding:0% 2%;
+    line-height: 1cm;
+    text-align: left;
+    font-style: bold;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para{
+    padding:0% 4%;
+    list-style-type: armenian;
+    text-align: justify;
+    line-height: 1cm;
+    font-size:small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style-type:circle;
+}
+
